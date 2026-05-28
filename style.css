@@ -2,11 +2,11 @@
 
 :root {
   --cor-de-fundo: #000000;
-  --roxo: #43339b;
+  --verde: #3777ee;
   --branco: #ffffff;
-  --botao-ativo: #43339b;
-  --botao-inativo: rgb(46, 45, 48);
-  --texto-fundo: rgb(37, 37, 39);
+  --botao-ativo: #3777ee;
+  --botao-inativo: rgba(28, 27, 39, 0.5);
+  --texto-fundo: rgba(28, 27, 39, 0.5);
 }
 
 body {
@@ -79,10 +79,6 @@ body {
   background-color: var(--texto-fundo);
   padding: 40px;
   border-radius: 0 0 40px 40px;
-}
-.botao.ativo {
-  background-color: var(--botao-ativo);
-  border-bottom: 4px solid var(--verde);
 }
 .aba-conteudo.ativo {
   display: block;
